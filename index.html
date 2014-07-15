@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" >
+    <head>
+        <meta charset="utf-8" />
+        <title>Prototyping</title>
+        <link href="css/main.css" rel="stylesheet" type="text/css" />
+        <script src="js/howler.js"></script>
+        <script src="js/howler.min.js"></script>
+        <script src="js/jquery-1.5.2.min.js"></script>
+        <script src="js/script.js"></script>
+       
+    </head>
+    <body>
+        <header>
+            <h2>PrototypeA</h2>
+
+        </header>
+                           <!--<a href="#" class="classname"></a>-->
+
+ <nav id="nav1">
+    <a href="#" class="button" onmousedown="sound.play()"></a>
+
+  </nav>
+
+        <div class="container">
+            <div class="bar">
+                <button id="options">Options</button>
+            </div>
+
+            <canvas id="scene" width="800" height="600"></canvas>
+            <div id="controls">
+                <div id="dialogs" class="dialogs">
+                    <div id="dialog1" class="dialog dialogVisible">
+                        <h1>Welcome to the prototype testing</h1>
+                        <textarea>
+Please tap the button to produce sound. 
+                        </textarea>
+                        <button id="but1">Next</button>
+                    </div>
+                    <div id="dialog2" class="dialog">
+                        <h1>The test</h1>
+                        <textarea>
+Please tap on the button every second. 
+Find your sense of tact without checking the time on your watch, phone, etc. 
+Tap until you have reached 100 seconds.
+
+                        </textarea>
+                        <button id="but2">Next</button>
+                    </div>
+                    <div id="dialog3" class="dialog">
+                        <h1>Thank you!</h1>
+                        <button id="but3">First page</button>
+                        <button id="but_close">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
